@@ -1,0 +1,1 @@
+img=imread('bicycle.jpg');disp(size(img));grey_bicycle = rgb2gray(img);disp(size(grey_bicycle)); %671   1024%cropping of a imagecropped = grey_bicycle(200:410, 50:210);imshow(cropped);%Size of the cropped imagedisp(size(cropped));%211   161 (410-200)+1
