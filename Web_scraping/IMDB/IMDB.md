@@ -8,7 +8,7 @@ The url that I used for my work.[click here](https://www.imdb.com/search/title/?
 
 The page looks like 
 
-![image]()
+![image](https://github.com/mobilerobotp4/Machine_Learning/blob/sub_ml/Web_scraping/IMDB/horror_movies.jpg)
 
 
 
