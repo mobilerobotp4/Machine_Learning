@@ -6,7 +6,9 @@ day I started thinking why I always have to rely on artificial dataset of Kaggle
 ## Getting Started
 The url that I used for my work.[click here](https://www.imdb.com/search/title/?genres=horror&title_type=feature&explore=genres)
 
-The page is look like 
+The page looks like 
+
+![image]()
 
 
 
