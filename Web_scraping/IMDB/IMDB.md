@@ -47,7 +47,7 @@ Write down the following command in the terminal
 
 ## Preparing the dataset
 
-I have already mentioned in the fields that I have been interested in, now I am going to scrap them.
+I have already mentioned the fields that I have been interested in, now I am going to scrap them.
 
 Here I like to mention that my previous knowledge on HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), JSP (Java Server Pages) help me a lot to understand a webpage completely. 
 
