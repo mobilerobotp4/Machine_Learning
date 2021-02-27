@@ -59,6 +59,8 @@ I developed a **Python script** using the **BeautifulSoup** library, which allow
 
 `genres=horror&title_type=feature&explore=genres` is the query string which comes at the end of the URL seperated by `?`(question mark). Here we want see the list of the horror movies.
 
+Some URLS also have the a `ref` section at the end of the URL. We can be found that `ref` portion if we inspect the end element of a webpage where we find the link to navigate to the next page or the previous page of a website.
+
 **Inspect HTML**
 
 ![image](https://github.com/mobilerobotp4/Machine_Learning/blob/sub_ml/Web_scraping/IMDB/Inspect.jpg)
@@ -67,7 +69,47 @@ I developed a **Python script** using the **BeautifulSoup** library, which allow
 
 Inspect element can be found after selecting a certain attribute and then right click on it. Inspect help us to naviagte the particular tab of the attribute which we need to scrap.
 
-In the above example we want to find the tag for the duration of the movie. So we select **109 min** in the above picture which is the runtime of the movie **Wrong turn** . When we inspect the element we find two classes <p> and <span>. Therefore <span>tag is nested within a <p> tag.
+In the above example we want to find the tag for the duration of the movie. So we select **109 min** in the above picture which is the runtime of the movie **Wrong turn** . 
+
+When I had inspected the runtime I found two tags <p> tag and <span> tag. <span> tag is nested within a <p> tag. So when we write down the code we need to explain this nesting fully. Otherwise, my code unable to find exact tagging. 
+  
+We can use inspect element for all our desired scraping fields.
+
+Name of the movie:
+
+![image](https://github.com/mobilerobotp4/Machine_Learning/blob/sub_ml/Web_scraping/IMDB/Name.jpg)
+
+Important tags for parsing **h3** and **a**
+
+Year of Release
+
+![image](https://github.com/mobilerobotp4/Machine_Learning/blob/sub_ml/Web_scraping/IMDB/year.jpg)
+
+Important tags for parsing **h3** and **span**
+
+Genre of the movie
+
+![image](https://github.com/mobilerobotp4/Machine_Learning/blob/sub_ml/Web_scraping/IMDB/genre.jpg)
+
+Important tag for parsing **p** and **span**
+
+Metascore of the movie
+
+![image](https://github.com/mobilerobotp4/Machine_Learning/blob/sub_ml/Web_scraping/IMDB/Metascore.jpg)
+
+Important tag for parsing **span**
+
+Name of the director
+
+![image](https://github.com/mobilerobotp4/Machine_Learning/blob/sub_ml/Web_scraping/IMDB/director.png)
+
+Important tag for parsing **p** and **a**
+
+## Outcome of the project
+
+Generate a csv file name **movies.csv**
+
+
 
 
 
