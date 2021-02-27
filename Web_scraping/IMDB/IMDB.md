@@ -75,31 +75,31 @@ When I had inspected the runtime I found two tags `p` tag and `span` tag. `span`
   
 We can use inspect element for all our desired scraping fields.
 
-Name of the movie:
+###### Name of the movie:
 
 ![image](https://github.com/mobilerobotp4/Machine_Learning/blob/sub_ml/Web_scraping/IMDB/Name.jpg)
 
 Important tags for parsing **h3** and **a**
 
-Year of Release
+###### Year of Release
 
 ![image](https://github.com/mobilerobotp4/Machine_Learning/blob/sub_ml/Web_scraping/IMDB/year.jpg)
 
 Important tags for parsing **h3** and **span**
 
-Genre of the movie
+###### Genre of the movie
 
 ![image](https://github.com/mobilerobotp4/Machine_Learning/blob/sub_ml/Web_scraping/IMDB/genre.jpg)
 
 Important tag for parsing **p** and **span**
 
-Metascore of the movie
+###### Metascore of the movie
 
 ![image](https://github.com/mobilerobotp4/Machine_Learning/blob/sub_ml/Web_scraping/IMDB/Metascore.jpg)
 
 Important tag for parsing **span**
 
-Name of the director
+###### Name of the director
 
 ![image](https://github.com/mobilerobotp4/Machine_Learning/blob/sub_ml/Web_scraping/IMDB/director.png)
 
