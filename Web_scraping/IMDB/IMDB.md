@@ -49,6 +49,26 @@ Write down the following command in the terminal
 
 I have already mentioned in the fields that I have been interested in, now I am going to scrap them.
 
-Here I like to mention that my previous knowledge on HTML, CSS, 
+Here I like to mention that my previous knowledge on HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), JSP (Java Server Pages) help me a lot to understand a webpage completely. 
+
+I developed a **Python script** using the **BeautifulSoup** library, which allows to parse HTML code.
+
+**Analyzing the URL**
+
+`https://www.imdb.com/search/title/?genres=horror&title_type=feature&explore=genres`
+
+`genres=horror&title_type=feature&explore=genres` is the query string which comes at the end of the URL seperated by `?`(question mark). Here we want see the list of the horror movies.
+
+**Inspect HTML**
+
+![image](https://github.com/mobilerobotp4/Machine_Learning/blob/sub_ml/Web_scraping/IMDB/Inspect.jpg)
+
+![image](https://github.com/mobilerobotp4/Machine_Learning/blob/sub_ml/Web_scraping/IMDB/Inspect-element.jpg)
+
+Inspect element can be found after selecting a certain attribute and then right click on it. Inspect help us to naviagte the particular tab of the attribute which we need to scrap.
+
+In the above example we want to find the tag for the duration of the movie. So we select **109 min** in the above picture which is the runtime of the movie **Wrong turn** . When we inspect the element we find two classes <p> and <span>. Therefore <span>tag is nested within a <p> tag.
+
+
 
 
