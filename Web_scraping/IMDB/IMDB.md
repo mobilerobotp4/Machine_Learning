@@ -71,7 +71,7 @@ Inspect element can be found after selecting a certain attribute and then right 
 
 In the above example we want to find the tag for the duration of the movie. So we select **109 min** in the above picture which is the runtime of the movie **Wrong turn** . 
 
-When I had inspected the runtime I found two tags <p> tag and <span> tag. <span> tag is nested within a <p> tag. So when we write down the code we need to explain this nesting fully. Otherwise, my code unable to find exact tagging. 
+When I had inspected the runtime I found two tags `p` tag and `span` tag. `span` tag is nested within a `p` tag. So when we write down the code we need to explain this nesting fully. Otherwise, my code unable to find exact tagging. 
   
 We can use inspect element for all our desired scraping fields.
 
